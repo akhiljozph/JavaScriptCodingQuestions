@@ -9,3 +9,9 @@
 `findFirstNonRepeatingChar('swiss');`
 
 Expected output: ***w***
+
+#### Use Case - 2
+
+`findFirstNonRepeatingChar('Swiss');`
+
+Expected output: ***w***
