@@ -2,7 +2,7 @@
 
 ## JSCQ-1
 
-#### **Find the first non repeating character from the provided word.**
+### **Find the first non repeating character from the provided word.**
 
 #### Use Case - 1
 
