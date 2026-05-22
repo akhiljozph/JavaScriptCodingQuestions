@@ -1,32 +1,3 @@
-# JavaScriptCodingQuestions
-
-## JSCQ-1
-
-### **Find the first non repeating character from the provided word.**
-
-#### Use Case - 1
-
-```
-findFirstNonRepeatingChar('swiss');
-```
-
-Expected output: ***w***
-
-#### Use Case - 2
-
-```
-findFirstNonRepeatingChar('Swiss');
-```
-
-Expected output: ***w***
-
-## JSCQ-2
-
-### **Given two arrays. Merge the arrays and return an with only unique elements.**
-
-### Use Case - 1
-
-```
 const empOne = [
     {
         id: 1,
@@ -54,4 +25,19 @@ const empTwo = [
         department: "Delivery"
     }
 ];
-```
+
+function mergeArraysAndReturnUnique(empOne, empTwo) {
+
+    const arrayWithUniqueElements = [];
+    const mergedArrays = [...empOne, ...empTwo];
+
+    for (let obj of mergedArrays) {
+        if (!arrayWithUniqueElements.find(el => el.id === obj.id)) {
+            arrayWithUniqueElements.push(obj);
+        }
+    }
+
+    return arrayWithUniqueElements;
+}
+
+console.log(mergeArraysAndReturnUnique(empOne, empTwo));
