@@ -1,7 +1,7 @@
 function hasUniqueCharacters(word) {
     // word = word.toLowerCase();
 
-    return new Set(word).length === word.length;
+    return new Set(word).size === word.length;
 }
 
-console.log(hasUniqueCharacters('Unique'));
+console.log(hasUniqueCharacters('words'));
