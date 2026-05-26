@@ -78,7 +78,7 @@ console.log(findLengthOfLongestConsecutiveSequence(sequence));
 
 Expected output: ***7***
 
-## JSCQ-3
+## JSCQ-4
 
 ### **Given an array with subarrays, return an array by flattening the original one.**
 
@@ -90,3 +90,15 @@ console.log(flattenArray(subArray));
 ```
 
 Expected output: ***[0, 1, 3, 5, 2, 6, 4, 8]***
+
+## JSCQ-4
+
+### **Find out whether the provided word is having only unique characters.**
+
+### Use Case - 1
+
+```
+console.log(hasUniqueCharacters('Unique'));;
+```
+
+Expected output: ***true***
