@@ -1,4 +1,7 @@
  function hasUniqueCharacters(str) {
+
+    // str = str.toLowerCase();
+
     const charSet = new Set();
 
     for (let char of str) {
@@ -12,4 +15,4 @@
 }
 
 
-console.log(hasUniqueCharacters("unique"));
+console.log(hasUniqueCharacters("Unique"));
