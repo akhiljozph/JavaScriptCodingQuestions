@@ -91,7 +91,7 @@ console.log(flattenArray(subArray));
 
 Expected output: ***[0, 1, 3, 5, 2, 6, 4, 8]***
 
-## JSCQ-4
+## JSCQ-5
 
 ### **Find out whether the provided word is having only unique characters.**
 
@@ -103,7 +103,7 @@ console.log(hasUniqueCharacters('Unique'));;
 
 Expected output: ***true***
 
-## JSCQ-5
+## JSCQ-6
 
 ### **Find out the count of each characters from the provided word.**
 
@@ -114,3 +114,16 @@ console.log(countCharacters('abbcccdddd'));
 ```
 
 Expected output: ***{ a: 1, b: 2, c: 3, d: 4 }***
+
+## JSCQ-7
+
+### **Function to return the longest word from the provided sentence.**
+
+### Use Case - 1
+
+```
+const sentence = 'This is a test sentence to find the largest word from this.';
+console.log(findLargestWords(sentence));
+```
+
+Expected output: ***sentence***
