@@ -153,3 +153,16 @@ console.log(findMissingNumbers(numbers, 0, 7));
 ```
 
 Expected output: ***[2, 4, 7]***
+
+## JSCQ-10
+
+### **Find and return the unique numbers from a given array.**
+
+### Use Case - 1
+
+```
+const numbers = [1, 2, 3, 2, 4, 5, 6, 8];
+console.log(removeDupicates(numbers));
+```
+
+Expected output: ***[1, 2, 3, 4, 5, 6, 8]***
