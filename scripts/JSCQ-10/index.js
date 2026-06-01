@@ -1,4 +1,4 @@
-function removeDupicates() {
+function removeDupicates(numbers) {
     return [...new Set(numbers)];
 }
 
