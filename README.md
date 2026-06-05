@@ -166,3 +166,15 @@ console.log(removeDupicates(numbers));
 ```
 
 Expected output: ***[1, 2, 3, 4, 5, 6, 8]***
+
+## JSCQ-11
+
+### **Verify whether the provided string is a palindrome or not.**
+
+### Use Case - 1
+
+```
+console.log(console.log(isPalindrome("A man, a plan, a canal, Panama")););
+```
+
+Expected output: ***true***
