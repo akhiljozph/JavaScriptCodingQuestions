@@ -1,7 +1,9 @@
 function swapLetters(input, idx1, idx2) {
     const letters = input.split('');
 
-    return letters.toSpliced(idx1, 1, letters[idx2]).toSpliced(idx2, 1, letters[idx1]).join('');
+    [letters[idx1], letters[idx2]] = [letters[idx2], letters[idx1]];
+
+    return letters.join('');
 }
 
 const input = 'abcd';
