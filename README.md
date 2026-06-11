@@ -230,3 +230,15 @@ console.log(groupAnagrams(words));
 ```
 
 Expected output: ***[['Ate', 'Eat', 'Tea'],['Integral','Triangle'],['Listen', 'Silent'],['Hello'],['World']]***
+
+## [JSCQ-16](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-16)
+
+### **Create an array from 1 to limit where elements divisible by num1 are replaced with 'Fizz', elements divisible by num2 are replaced with 'Buzz', and elements divisible by both are replaced with 'FizzBuzz'.**
+
+### Use Case - 1
+
+```
+console.log(fizzBuzzVariations(10, 2, 3))
+```
+
+Expected output: ***[1, 'Fizz', 'Buzz', 'Fizz', 5, 'FizzBuzz', 7, 'Fizz', 'Buzz', 'Fizz']***
