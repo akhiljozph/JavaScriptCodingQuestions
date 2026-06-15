@@ -1,6 +1,6 @@
 # JavaScriptCodingQuestions
 
-## JSCQ-1
+## [JSCQ-1](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-1)
 
 ### **Find the first non repeating character from the provided word.**
 
@@ -20,7 +20,7 @@ findFirstNonRepeatingChar('Swiss');
 
 Expected output: ***w***
 
-## JSCQ-2
+## [JSCQ-2](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-2)
 
 ### **Given two arrays. Merge the arrays and return an with only unique elements.**
 
@@ -65,7 +65,7 @@ Expected Output:
 ]
 ```
 
-## JSCQ-3
+## [JSCQ-3](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-3)
 
 ### **Given an array with integers. Find the length of the longest consecutive sequence from the array.**
 
@@ -78,7 +78,7 @@ console.log(findLengthOfLongestConsecutiveSequence(sequence));
 
 Expected output: ***7***
 
-## JSCQ-4
+## [JSCQ-4](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-4)
 
 ### **Given an array with subarrays, return an array by flattening the original one.**
 
@@ -91,7 +91,7 @@ console.log(flattenArray(subArray));
 
 Expected output: ***[0, 1, 3, 5, 2, 6, 4, 8]***
 
-## JSCQ-5
+## [JSCQ-5](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-5)
 
 ### **Find out whether the provided word is having only unique characters.**
 
@@ -103,7 +103,7 @@ console.log(hasUniqueCharacters('Unique'));;
 
 Expected output: ***true***
 
-## JSCQ-6
+## [JSCQ-6](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-6)
 
 ### **Find out the count of each characters from the provided word.**
 
@@ -115,7 +115,7 @@ console.log(countCharacters('abbcccdddd'));
 
 Expected output: ***{ a: 1, b: 2, c: 3, d: 4 }***
 
-## JSCQ-7
+## [JSCQ-7](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-7)
 
 ### **Function to return the longest word from the provided sentence.**
 
@@ -128,7 +128,7 @@ console.log(findLargestWords(sentence));
 
 Expected output: ***sentence***
 
-## JSCQ-8
+## [JSCQ-8](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-8)
 
 ### **Find and return the second largest number from the provided list.**
 
@@ -141,7 +141,7 @@ console.log(findSecondLargest(numbers));
 
 Expected output: ***10***
 
-## JSCQ-9
+## [JSCQ-9](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-9)
 
 ### **Find the missing numbers from the provided array. Array range will be provided.**
 
@@ -154,7 +154,7 @@ console.log(findMissingNumbers(numbers, 0, 7));
 
 Expected output: ***[2, 4, 7]***
 
-## JSCQ-10
+## [JSCQ-10](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-10)
 
 ### **Find and return the unique numbers from a given array.**
 
@@ -167,7 +167,7 @@ console.log(removeDupicates(numbers));
 
 Expected output: ***[1, 2, 3, 4, 5, 6, 8]***
 
-## JSCQ-11
+## [JSCQ-11](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-11)
 
 ### **Verify whether the provided string is a palindrome or not.**
 
@@ -179,7 +179,7 @@ console.log(console.log(isPalindrome("A man, a plan, a canal, Panama")););
 
 Expected output: ***true***
 
-## JSCQ-12
+## [JSCQ-12](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-12)
 
 ### **Given a word and two indexes of that word, swap the characters at those indexes and return the result.**
 
@@ -192,7 +192,7 @@ console.log(swapLetters(input, 0, 3));
 
 Expected output: ***dbca***
 
-## JSCQ-13
+## [JSCQ-13](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-13)
 
 ### **Calculate the total sum of elements from the provided array.**
 
@@ -205,7 +205,7 @@ console.log(findSumOfNumbers(numbers));
 
 Expected output: ***40***
 
-## JSCQ-14
+## [JSCQ-14](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-14)
 
 ### **Given an array of numbers and find the maximum difference between the elements of the array.**
 
@@ -217,3 +217,28 @@ console.log(findMaxDifference(numbers));
 ```
 
 Expected output: ***5***
+
+## [JSCQ-15](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-15)
+
+### **Given an array of strings. Return an array with the angrams as sub arrays.**
+
+### Use Case - 1
+
+```
+const words = ['Ate','Eat','Hello','Integral','Listen','Silent','Tea','Triangle','World'];
+console.log(groupAnagrams(words));
+```
+
+Expected output: ***[['Ate', 'Eat', 'Tea'],['Integral','Triangle'],['Listen', 'Silent'],['Hello'],['World']]***
+
+## [JSCQ-16](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-16)
+
+### **Create an array from 1 to limit where elements divisible by num1 are replaced with 'Fizz', elements divisible by num2 are replaced with 'Buzz', and elements divisible by both are replaced with 'FizzBuzz'.**
+
+### Use Case - 1
+
+```
+console.log(fizzBuzzVariations(10, 2, 3))
+```
+
+Expected output: ***[1, 'Fizz', 'Buzz', 'Fizz', 5, 'FizzBuzz', 7, 'Fizz', 'Buzz', 'Fizz']***
