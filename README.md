@@ -242,3 +242,17 @@ console.log(fizzBuzzVariations(10, 2, 3))
 ```
 
 Expected output: ***[1, 'Fizz', 'Buzz', 'Fizz', 5, 'FizzBuzz', 7, 'Fizz', 'Buzz', 'Fizz']***
+
+
+## [JSCQ-17](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-17)
+
+### **Given an array of sentences, sort it by word and return the sorted sentences.**
+
+### Use Case - 1
+
+```
+const sentences = ['The Road To Learn React', 'The road to learn angular', 'Learning React', 'Learning Angular15', 'Learning angular12', 'React In Action'];
+console.log(sortSentences(sentences));
+```
+
+Expected output: ***['Learning angular12', 'Learning Angular15', 'Learning React', 'React In Action', 'The road to learn angular', 'The Road To Learn React']***
