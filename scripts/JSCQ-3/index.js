@@ -1,15 +1,15 @@
-const sequence = [11, 0, 1, 3, 5, 9, 6, 4, 10, 8];
+const sequence = [7, 1, 8, 0, 9, 2, 3];
 
 function findLengthOfLongestConsecutiveSequence(sequence) {
     const sequenceSet = new Set(sequence);
     let maxLength = 0;
 
     for (let element of sequenceSet) {
-        if (!seq.has(element - 1)) {
+        if (!sequenceSet.has(element - 1)) {
             let currentNum = element;
             let currentLength = 1;
 
-            while (seq.has(currentNum + 1)) {
+            while (sequenceSet.has(currentNum + 1)) {
                 currentNum += 1;
                 currentLength += 1;
             }
