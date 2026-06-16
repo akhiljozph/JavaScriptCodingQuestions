@@ -1,5 +1,5 @@
 function fizzBuzzVariations(limit, multiplierOne, multiplierTwo) {
-    return Array.from({ length: limit }, (_, i) => {
+    return Array.from({ length: limit }, (_, i) => { // '_' is a placeholder for the value of current object.
         const value = i + 1;
         let str = '';
 
