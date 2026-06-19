@@ -256,3 +256,15 @@ console.log(sortSentences(sentences));
 ```
 
 Expected output: ***['Learning angular12', 'Learning Angular15', 'Learning React', 'React In Action', 'The road to learn angular', 'The Road To Learn React']***
+
+## [JSCQ-17](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-18)
+
+### **Find out whether the number is a prime number or not.**
+
+### Use Case - 1
+
+```
+console.log(isPrime(5));
+```
+
+Expected output: ***Number 5 is prime.***
