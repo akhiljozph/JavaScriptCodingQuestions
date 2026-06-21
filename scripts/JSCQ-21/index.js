@@ -1,7 +1,7 @@
 function findLargest(stringsNNumbers) {
-    const numbers = stringsNNumbers.filter((el) => Number.isFinite(el));
+    // const numbers = stringsNNumbers.filter((el) => Number.isFinite(el));
     // const numbers = stringsNNumbers.filter((el) => typeof el === 'number');
-    // const numbers = stringsNNumbers.filter((el) => !isNaN(el));
+    const numbers = stringsNNumbers.filter((el) => !isNaN(el));
 
     return Math.max(...numbers);
 }

@@ -7,4 +7,4 @@ const stringsNNumbers = [1, 'a', 10, 'r', '11'];
 console.log(findLargest(stringsNNumbers));
 ```
 
-Expected output: ***10***
+Expected output: ***11***
