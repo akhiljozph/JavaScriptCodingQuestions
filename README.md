@@ -293,7 +293,7 @@ console.log(generateFibonacciSeries(15));;
 
 Expected output: ***[ 0,   1,   1,  2,  3,  5, 8,  13,  21, 34, 55, 89, 144, 233, 377 ]***
 
-## [JSCQ-20](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-21)
+## [JSCQ-21](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-21)
 
 ### **Find the largest number from the given array which contains mixed inputs.**
 
@@ -305,3 +305,16 @@ console.log(findLargest(stringsNNumbers));
 ```
 
 Expected output: ***10***
+
+## [JSCQ-22](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-22)
+
+### **Implement a javascript function that takes an array of numbers and returns a new array with only the even numbers.**
+
+### Use Case - 1
+
+```
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(findEvenNumbers(numbers));
+```
+
+Expected output: ***[2, 4, 6, 8, 10]***
