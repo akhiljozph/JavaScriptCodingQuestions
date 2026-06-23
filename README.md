@@ -318,3 +318,16 @@ console.log(findEvenNumbers(numbers));
 ```
 
 Expected output: ***[2, 4, 6, 8, 10]***
+
+## [JSCQ-23](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-23)
+
+### **Find and alphabetically sort all non-empty combinations of characters from a given string, preserving their relative order.**
+
+### Use Case - 1
+
+```
+const str = 'abc';
+console.log(generateUniqueSubStrings(str))
+```
+
+Expected output: ***[ 'a', 'ab', 'abc', 'ac', 'b', 'bc', 'c' ]***
