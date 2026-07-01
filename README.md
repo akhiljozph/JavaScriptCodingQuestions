@@ -23,6 +23,21 @@ console.log(original.name);
 console.log(original.details.age);
 ```
 
+### [JSOP-3]
+```javascript
+function updateProfile(user) {
+  user.age = 21;
+  user = { name: "John", age: 30 };
+  return user;
+}
+
+const person = { name: "Alex", age: 20 };
+const newPerson = updateProfile(person);
+
+console.log(person.age);
+console.log(newPerson.age);
+```
+
 ---
 
 ## [JSCQ-1](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-1)
