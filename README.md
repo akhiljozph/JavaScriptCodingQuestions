@@ -2,7 +2,7 @@
 
 ## Output Predictions
 
-### [OP-1]
+### [JSOP-1]
 ```javascript
 for (var i = 0; i < 3; i++) {
   setTimeout(() => {
@@ -11,7 +11,17 @@ for (var i = 0; i < 3; i++) {
 }
 ```
 
-### [OP-2]
+### [JSOP-2]
+```javascript
+let original = { name: "Alice", details: { age: 25 } };
+let clone = { ...original };
+
+clone.name = "Bob";
+clone.details.age = 30;
+
+console.log(original.name);
+console.log(original.details.age);
+```
 
 ---
 
