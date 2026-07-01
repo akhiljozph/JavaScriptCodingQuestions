@@ -1,5 +1,20 @@
 # JavaScriptCodingQuestions
 
+## Output Predictions
+
+### [OP-1]
+```javascript
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, 1000);
+}
+```
+
+### [OP-2]
+
+---
+
 ## [JSCQ-1](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-1)
 
 ### **Find the first non repeating character from the provided word.**
