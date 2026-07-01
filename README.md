@@ -38,6 +38,19 @@ console.log(person.age);
 console.log(newPerson.age);
 ```
 
+### [JSOP-4]
+```javascript
+var x = 10;
+
+function test() {
+  console.log(x);
+  var x = 20;
+  console.log(x);
+}
+
+test();
+```
+
 ---
 
 ## [JSCQ-1](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-1)
