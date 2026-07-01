@@ -53,6 +53,8 @@ test();
 
 ---
 
+## Coding Questions
+
 ## [JSCQ-1](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-1)
 
 ### **Find the first non repeating character from the provided word.**
