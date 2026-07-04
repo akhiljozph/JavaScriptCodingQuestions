@@ -399,3 +399,20 @@ console.log(replaceNumbersWithChar(str));
 ```
 
 Expected output: ***a|bc||d|***
+
+## [JSCQ-25](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-25)
+
+### **Function that performs a diagonal zigzag traversal of a matrix in JavaScript.**
+
+### Use Case - 1
+
+```
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(traverseMatrix(matrix));
+```
+
+Expected output: ***[1, 2, 3, 4, 5, 6, 7, 8, 9]***
