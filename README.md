@@ -416,3 +416,17 @@ console.log(traverseMatrix(matrix));
 ```
 
 Expected output: ***[1, 2, 3, 4, 5, 6, 7, 8, 9]***
+
+## [JSCQ-26](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-26)
+
+### **Function to find the common elements between two given arrays.**
+
+### Use Case - 1
+
+```
+const firstArray = [1, 2, 1, 5, 6];
+const secondArray = [1, 4, 8, 7, 6];
+console.log(findCommon(firstArray, secondArray));
+```
+
+Expected output: ***[1, 6]***
