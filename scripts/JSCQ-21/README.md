@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const stringsNNumbers = [1, 'a', 10, 'r', '11'];
 console.log(findLargest(stringsNNumbers));
 ```

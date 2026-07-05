@@ -61,7 +61,7 @@ test();
 
 #### Use Case - 1
 
-```
+```javascript
 findFirstNonRepeatingChar('swiss');
 ```
 
@@ -69,7 +69,7 @@ Expected output: ***w***
 
 #### Use Case - 2
 
-```
+```javascript
 findFirstNonRepeatingChar('Swiss');
 ```
 
@@ -81,7 +81,7 @@ Expected output: ***w***
 
 ### Use Case - 1
 
-```
+```javascript
 const empOne = [
     {
         id: 1,
@@ -112,7 +112,7 @@ const empTwo = [
 ```
 
 Expected Output:
-```
+```javascript
 [
   { id: 1, name: 'Akhil Joseph', department: 'Delivery' },
   { id: 2, name: 'Abraham Joseph', department: 'Delivery' },
@@ -126,7 +126,7 @@ Expected Output:
 
 ### Use Case - 1
 
-```
+```javascript
 const sequence = [0,1,3,5,2,6,4,8];
 console.log(findLengthOfLongestConsecutiveSequence(sequence));
 ```
@@ -139,7 +139,7 @@ Expected output: ***7***
 
 ### Use Case - 1
 
-```
+```javascript
 const subArray = [0,1,[3,5,[2],6],4,8];
 console.log(flattenArray(subArray));
 ```
@@ -152,7 +152,7 @@ Expected output: ***[0, 1, 3, 5, 2, 6, 4, 8]***
 
 ### Use Case - 1
 
-```
+```javascript
 console.log(hasUniqueCharacters('Unique'));;
 ```
 
@@ -164,7 +164,7 @@ Expected output: ***true***
 
 ### Use Case - 1
 
-```
+```javascript
 console.log(countCharacters('abbcccdddd'));
 ```
 
@@ -176,7 +176,7 @@ Expected output: ***{ a: 1, b: 2, c: 3, d: 4 }***
 
 ### Use Case - 1
 
-```
+```javascript
 const sentence = 'This is a test sentence to find the largest word from this.';
 console.log(findLargestWords(sentence));
 ```
@@ -189,7 +189,7 @@ Expected output: ***sentence***
 
 ### Use Case - 1
 
-```
+```javascript
 const numbers = [2, 6, 4, 5, 7, 8, 9, 1, 10, 11];
 console.log(findSecondLargest(numbers));
 ```
@@ -202,7 +202,7 @@ Expected output: ***10***
 
 ### Use Case - 1
 
-```
+```javascript
 const numbers = [0, 1, 3, 6, 5];
 console.log(findMissingNumbers(numbers, 0, 7));
 ```
@@ -215,7 +215,7 @@ Expected output: ***[2, 4, 7]***
 
 ### Use Case - 1
 
-```
+```javascript
 const numbers = [1, 2, 3, 2, 4, 5, 6, 8];
 console.log(removeDupicates(numbers));
 ```
@@ -228,7 +228,7 @@ Expected output: ***[1, 2, 3, 4, 5, 6, 8]***
 
 ### Use Case - 1
 
-```
+```javascript
 console.log(console.log(isPalindrome("A man, a plan, a canal, Panama")););
 ```
 
@@ -240,7 +240,7 @@ Expected output: ***true***
 
 ### Use Case - 1
 
-```
+```javascript
 const input = 'abcd';
 console.log(swapLetters(input, 0, 3));
 ```
@@ -253,7 +253,7 @@ Expected output: ***dbca***
 
 ### Use Case - 1
 
-```
+```javascript
 const numbers = [1, 5, 9, 10, 11, 4];
 console.log(findSumOfNumbers(numbers));
 ```
@@ -266,7 +266,7 @@ Expected output: ***40***
 
 ### Use Case - 1
 
-```
+```javascript
 const numbers = [1, 2, 6];
 console.log(findMaxDifference(numbers));
 ```
@@ -279,7 +279,7 @@ Expected output: ***5***
 
 ### Use Case - 1
 
-```
+```javascript
 const words = ['Ate','Eat','Hello','Integral','Listen','Silent','Tea','Triangle','World'];
 console.log(groupAnagrams(words));
 ```
@@ -292,7 +292,7 @@ Expected output: ***[['Ate', 'Eat', 'Tea'],['Integral','Triangle'],['Listen', 'S
 
 ### Use Case - 1
 
-```
+```javascript
 console.log(fizzBuzzVariations(10, 2, 3))
 ```
 
@@ -305,7 +305,7 @@ Expected output: ***[1, 'Fizz', 'Buzz', 'Fizz', 5, 'FizzBuzz', 7, 'Fizz', 'Buzz'
 
 ### Use Case - 1
 
-```
+```javascript
 const sentences = ['The Road To Learn React', 'The road to learn angular', 'Learning React', 'Learning Angular15', 'Learning angular12', 'React In Action'];
 console.log(sortSentences(sentences));
 ```
@@ -318,7 +318,7 @@ Expected output: ***['Learning angular12', 'Learning Angular15', 'Learning React
 
 ### Use Case - 1
 
-```
+```javascript
 console.log(isPrime(5));
 ```
 
@@ -330,7 +330,7 @@ Expected output: ***Number 5 is prime.***
 
 ### Use Case - 1
 
-```
+```javascript
 console.log(factorial(5));;
 ```
 
@@ -342,7 +342,7 @@ Expected output: ***120***
 
 ### Use Case - 1
 
-```
+```javascript
 console.log(generateFibonacciSeries(15));;
 ```
 
@@ -354,7 +354,7 @@ Expected output: ***[ 0,   1,   1,  2,  3,  5, 8,  13,  21, 34, 55, 89, 144, 233
 
 ### Use Case - 1
 
-```
+```javascript
 const stringsNNumbers = [1, 'a', 10, 'r', '11'];
 console.log(findLargest(stringsNNumbers));
 ```
@@ -367,7 +367,7 @@ Expected output: ***10***
 
 ### Use Case - 1
 
-```
+```javascript
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(findEvenNumbers(numbers));
 ```
@@ -380,7 +380,7 @@ Expected output: ***[2, 4, 6, 8, 10]***
 
 ### Use Case - 1
 
-```
+```javascript
 const str = 'abc';
 console.log(generateUniqueSubStrings(str))
 ```
@@ -393,7 +393,7 @@ Expected output: ***[ 'a', 'ab', 'abc', 'ac', 'b', 'bc', 'c' ]***
 
 ### Use Case - 1
 
-```
+```javascript
 const str = 'a1bc23d0';
 console.log(replaceNumbersWithChar(str));
 ```
@@ -406,7 +406,7 @@ Expected output: ***a|bc||d|***
 
 ### Use Case - 1
 
-```
+```javascript
 const matrix = [
     [1, 2, 3],
     [4, 5, 6],
@@ -423,10 +423,23 @@ Expected output: ***[1, 2, 3, 4, 5, 6, 7, 8, 9]***
 
 ### Use Case - 1
 
-```
+```javascript
 const firstArray = [1, 2, 1, 5, 6];
 const secondArray = [1, 4, 8, 7, 6];
 console.log(findCommon(firstArray, secondArray));
 ```
 
 Expected output: ***[1, 6]***
+
+## [JSCQ-27](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-27)
+
+### **Function to find the maximum sum of a subsequence such that no two elements are adjacent in the array.**
+
+### Use Case - 1
+
+```javascript
+const numbers = [8, 1, 4, 9, 3, 2, 7];
+console.log(findMaximumSumOfNonAdjacentElements(numbers));
+```
+
+Expected output: ***24***

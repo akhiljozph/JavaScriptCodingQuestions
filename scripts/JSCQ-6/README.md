@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 console.log(countCharacters('abbcccdddd'));
 ```
 

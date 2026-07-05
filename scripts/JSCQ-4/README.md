@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const subArray = [0,1,[3,5,[2],6],4,8];
 console.log(flattenArray(subArray));
 ```

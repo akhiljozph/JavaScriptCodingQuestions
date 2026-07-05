@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const numbers = [0, 1, 3, 6, 5];
 console.log(findMissingNumbers(numbers, 0, 7));
 ```

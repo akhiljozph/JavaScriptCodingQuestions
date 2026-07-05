@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const empOne = [
     {
         id: 1,

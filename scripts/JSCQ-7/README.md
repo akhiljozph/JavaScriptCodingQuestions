@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const sentence = 'This is a test sentence to find the largest word from this.';
 console.log(findLargestWords(sentence));
 ```

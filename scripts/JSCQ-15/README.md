@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const words = ['Ate','Eat','Hello','Integral','Listen','Silent','Tea','Triangle','World'];
 console.log(groupAnagrams(words));
 ```

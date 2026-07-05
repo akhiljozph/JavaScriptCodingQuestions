@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const firstArray = [1, 2, 1, 5, 6];
 const secondArray = [1, 4, 8, 7, 6];
 console.log(findCommon(firstArray, secondArray));

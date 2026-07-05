@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const numbers = [1, 2, 6];
 console.log(findMaxDifference(numbers));
 ```

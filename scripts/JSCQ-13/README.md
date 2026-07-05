@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const numbers = [1, 5, 9, 10, 11, 4];
 console.log(findSumOfNumbers(numbers));
 ```

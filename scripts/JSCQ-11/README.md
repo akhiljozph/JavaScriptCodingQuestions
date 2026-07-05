@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 console.log(console.log(isPalindrome("A man, a plan, a canal, Panama")););
 ```
 

@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const input = 'abcd';
 console.log(swapLetters(input, 0, 3));
 ```

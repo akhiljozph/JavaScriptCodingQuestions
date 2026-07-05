@@ -2,7 +2,7 @@
 
 ### Use Case - 1
 
-```
+```javascript
 const str = 'a1bc23d0';
 console.log(replaceNumbersWithChar(str));
 ```
