@@ -443,3 +443,16 @@ console.log(findMaximumSumOfNonAdjacentElements(numbers));
 ```
 
 Expected output: ***24***
+
+## [JSCQ-27](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-28)
+
+### **Function to seperate the odd number pairs with a hyphen.**
+
+### Use Case - 1
+
+```javascript
+const number = 354791;
+console.log(seperateOddPairsWithHyphens(number));
+```
+
+Expected output: ***3-547-9-1***
