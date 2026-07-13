@@ -444,7 +444,7 @@ console.log(findMaximumSumOfNonAdjacentElements(numbers));
 
 Expected output: ***24***
 
-## [JSCQ-29](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-28)
+## [JSCQ-28](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-28)
 
 ### **Function to seperate the odd number pairs with a hyphen.**
 
