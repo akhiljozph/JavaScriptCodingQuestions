@@ -457,7 +457,7 @@ console.log(seperateOddPairsWithHyphens(number));
 
 Expected output: ***3-547-9-1***
 
-## [JSCQ-29](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-28)
+## [JSCQ-29](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-29)
 
 ### **Function that repeatedly reduces an array by taking absolute differences of adjacent elements until one number remains.**
 
