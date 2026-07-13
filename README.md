@@ -444,7 +444,7 @@ console.log(findMaximumSumOfNonAdjacentElements(numbers));
 
 Expected output: ***24***
 
-## [JSCQ-27](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-28)
+## [JSCQ-29](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-28)
 
 ### **Function to seperate the odd number pairs with a hyphen.**
 
@@ -456,3 +456,16 @@ console.log(seperateOddPairsWithHyphens(number));
 ```
 
 Expected output: ***3-547-9-1***
+
+## [JSCQ-29](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-28)
+
+### **Function that repeatedly reduces an array by taking absolute differences of adjacent elements until one number remains.**
+
+### Use Case - 1
+
+```javascript
+const numbers = [ 8,  5,  2,  9 ];
+console.log(reduceByAdjacentDifferences(numbers));
+```
+
+Expected output: ***4***
