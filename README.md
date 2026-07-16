@@ -469,3 +469,15 @@ console.log(reduceByAdjacentDifferences(numbers));
 ```
 
 Expected output: ***4***
+
+## [JSCQ-30](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-30)
+
+### **TBD**
+
+### Use Case - 1
+
+```javascript
+// TBD
+```
+
+Expected output: ***TBD***
