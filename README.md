@@ -51,6 +51,39 @@ function test() {
 test();
 ```
 
+### [JSOP-5]
+```javascript
+console.log(foo);
+
+var foo = 1;
+
+function foo() {
+    return 2;
+}
+
+console.log(foo);
+```
+
+### [JSOP-6]
+```javascript
+function outer() {
+    let count = 0;
+
+    return function () {
+        count++;
+        console.log(count);
+    };
+}
+
+const fn1 = outer();
+const fn2 = outer();
+
+fn1();
+fn1();
+fn2();
+fn1();
+```
+
 ---
 
 ## Coding Questions
