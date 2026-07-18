@@ -3,6 +3,31 @@
 ## Output Predictions
 
 ### [JSOP-1]
+```
+console.log(false == 0);
+```
+
+### [JSOP-2]
+```
+console.log(false === 0);
+```
+
+### [JSOP-3]
+```
+console.log(null == undefined);
+```
+
+### [JSOP-4]
+```
+console.log(null === undefined);
+```
+
+### [JSOP-5]
+```
+console.log([] == false);
+```
+
+### [JSOP-6]
 ```javascript
 for (var i = 0; i < 3; i++) {
   setTimeout(() => {
@@ -11,7 +36,7 @@ for (var i = 0; i < 3; i++) {
 }
 ```
 
-### [JSOP-2]
+### [JSOP-7]
 ```javascript
 let original = { name: "Alice", details: { age: 25 } };
 let clone = { ...original };
@@ -23,7 +48,7 @@ console.log(original.name);
 console.log(original.details.age);
 ```
 
-### [JSOP-3]
+### [JSOP-8]
 ```javascript
 function updateProfile(user) {
   user.age = 21;
@@ -38,7 +63,7 @@ console.log(person.age);
 console.log(newPerson.age);
 ```
 
-### [JSOP-4]
+### [JSOP-9]
 ```javascript
 var x = 10;
 
@@ -51,7 +76,7 @@ function test() {
 test();
 ```
 
-### [JSOP-5]
+### [JSOP-10]
 ```javascript
 console.log(foo);
 
@@ -64,7 +89,7 @@ function foo() {
 console.log(foo);
 ```
 
-### [JSOP-6]
+### [JSOP-11]
 ```javascript
 function outer() {
     let count = 0;
@@ -84,7 +109,7 @@ fn2();
 fn1();
 ```
 
-### [JSOP-7]
+### [JSOP-12]
 ```javascript
 const person = {
     name: "Akhil",
