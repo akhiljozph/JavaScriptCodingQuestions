@@ -130,6 +130,30 @@ const fn = person.sayName;
 fn();
 ```
 
+### [JSOP-13]
+```javascript
+const obj = {
+    name: "Akhil",
+
+    regular() {
+        console.log(this.name);
+    },
+
+    arrow: () => {
+        console.log(this.name);
+    }
+};
+
+const regular = obj.regular;
+const arrow = obj.arrow;
+
+regular.call({ name: "John" });
+arrow.call({ name: "John" });
+
+obj.regular();
+obj.arrow();
+```
+
 ---
 
 ## Coding Questions
