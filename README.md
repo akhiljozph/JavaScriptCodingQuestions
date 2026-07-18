@@ -84,6 +84,27 @@ fn2();
 fn1();
 ```
 
+### [JSOP-7]
+```javascript
+const person = {
+    name: "Akhil",
+    sayName() {
+        console.log(this.name);
+    }
+};
+
+const another = {
+    name: "John",
+    sayName: person.sayName
+};
+
+person.sayName();
+another.sayName();
+
+const fn = person.sayName;
+fn();
+```
+
 ---
 
 ## Coding Questions
