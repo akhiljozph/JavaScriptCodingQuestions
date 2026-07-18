@@ -2,32 +2,32 @@
 
 ## Output Predictions
 
-### [JSOP-1]
-```
+### JSOP-1
+```javascript
 console.log(false == 0);
 ```
 
-### [JSOP-2]
-```
+### JSOP-2
+```javascript
 console.log(false === 0);
 ```
 
-### [JSOP-3]
-```
+### JSOP-3
+```javascript
 console.log(null == undefined);
 ```
 
-### [JSOP-4]
-```
+### JSOP-4
+```javascript
 console.log(null === undefined);
 ```
 
-### [JSOP-5]
-```
+### JSOP-5
+```javascript
 console.log([] == false);
 ```
 
-### [JSOP-6]
+### JSOP-6
 ```javascript
 for (var i = 0; i < 3; i++) {
   setTimeout(() => {
@@ -36,7 +36,7 @@ for (var i = 0; i < 3; i++) {
 }
 ```
 
-### [JSOP-7]
+### JSOP-7
 ```javascript
 let original = { name: "Alice", details: { age: 25 } };
 let clone = { ...original };
@@ -48,7 +48,7 @@ console.log(original.name);
 console.log(original.details.age);
 ```
 
-### [JSOP-8]
+### JSOP-8
 ```javascript
 function updateProfile(user) {
   user.age = 21;
@@ -63,7 +63,7 @@ console.log(person.age);
 console.log(newPerson.age);
 ```
 
-### [JSOP-9]
+### JSOP-9
 ```javascript
 var x = 10;
 
@@ -76,7 +76,7 @@ function test() {
 test();
 ```
 
-### [JSOP-11]
+### JSOP-11
 ```javascript
 var x = 10;
 
@@ -95,7 +95,7 @@ test();
 console.log(x);
 ```
 
-### [JSOP-11]
+### JSOP-11
 ```javascript
 console.log(typeof foo);
 
@@ -110,7 +110,7 @@ function foo() {
 }
 ```
 
-### [JSOP-12]
+### JSOP-12
 ```javascript
 console.log(foo);
 
@@ -123,7 +123,7 @@ function foo() {
 console.log(foo);
 ```
 
-### [JSOP-13]
+### JSOP-13
 ```javascript
 function outer() {
     let count = 0;
@@ -143,7 +143,7 @@ fn2();
 fn1();
 ```
 
-### [JSOP-14]
+### JSOP-14
 ```javascript
 const person = {
     name: "Akhil",
@@ -164,7 +164,7 @@ const fn = person.sayName;
 fn();
 ```
 
-### [JSOP-15]
+### JSOP-15
 ```javascript
 const obj = {
     name: "Akhil",
