@@ -76,7 +76,26 @@ function test() {
 test();
 ```
 
-### [JSOP-10]
+### [JSOP-11]
+```javascript
+var x = 10;
+
+function test() {
+    console.log(x);
+
+    if (true) {
+        var x = 20;
+    }
+
+    console.log(x);
+}
+
+test();
+
+console.log(x);
+```
+
+### [JSOP-11]
 ```javascript
 console.log(foo);
 
@@ -89,7 +108,7 @@ function foo() {
 console.log(foo);
 ```
 
-### [JSOP-11]
+### [JSOP-12]
 ```javascript
 function outer() {
     let count = 0;
@@ -109,7 +128,7 @@ fn2();
 fn1();
 ```
 
-### [JSOP-12]
+### [JSOP-13]
 ```javascript
 const person = {
     name: "Akhil",
@@ -130,7 +149,7 @@ const fn = person.sayName;
 fn();
 ```
 
-### [JSOP-13]
+### [JSOP-14]
 ```javascript
 const obj = {
     name: "Akhil",
