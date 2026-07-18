@@ -97,6 +97,21 @@ console.log(x);
 
 ### [JSOP-11]
 ```javascript
+console.log(typeof foo);
+
+var foo = function () {
+    return "Hello";
+};
+
+console.log(typeof foo);
+
+function foo() {
+    return "Hi";
+}
+```
+
+### [JSOP-12]
+```javascript
 console.log(foo);
 
 var foo = 1;
@@ -108,7 +123,7 @@ function foo() {
 console.log(foo);
 ```
 
-### [JSOP-12]
+### [JSOP-13]
 ```javascript
 function outer() {
     let count = 0;
@@ -128,7 +143,7 @@ fn2();
 fn1();
 ```
 
-### [JSOP-13]
+### [JSOP-14]
 ```javascript
 const person = {
     name: "Akhil",
@@ -149,7 +164,7 @@ const fn = person.sayName;
 fn();
 ```
 
-### [JSOP-14]
+### [JSOP-15]
 ```javascript
 const obj = {
     name: "Akhil",
