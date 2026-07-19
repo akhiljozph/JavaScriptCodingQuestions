@@ -7,7 +7,7 @@
 console.log(false == 0);
 ```
 <details>
-  <summary>Click here for the output:</summary>
+  <summary>Result:</summary>
 
   ```javascript
     true
@@ -19,7 +19,7 @@ console.log(false == 0);
 console.log(false === 0);
 ```
 <details>
-  <summary>Click here for the output:</summary>
+  <summary>Result:</summary>
 
   ```javascript
     false
@@ -31,7 +31,7 @@ console.log(false === 0);
 console.log(null == undefined);
 ```
 <details>
-  <summary>Click here for the output:</summary>
+  <summary>Result:</summary>
 
   ```javascript
     true
@@ -43,7 +43,7 @@ console.log(null == undefined);
 console.log(null === undefined);
 ```
 <details>
-  <summary>Click here for the output:</summary>
+  <summary>Result:</summary>
 
   ```javascript
     false
@@ -55,7 +55,7 @@ console.log(null === undefined);
 console.log([] == false);
 ```
 <details>
-  <summary>Click here for the output:</summary>
+  <summary>Result:</summary>
 
   ```javascript
     true
@@ -67,7 +67,7 @@ console.log([] == false);
 console.log([] === false);
 ```
 <details>
-  <summary>Click here for the output:</summary>
+  <summary>Result:</summary>
 
   ```javascript
     false
@@ -79,7 +79,7 @@ console.log([] === false);
 console.log([0] == false);
 ```
 <details>
-  <summary>Click here for the output:</summary>
+  <summary>Result:</summary>
 
   ```javascript
     true
@@ -91,7 +91,7 @@ console.log([0] == false);
 console.log("" == false);
 ```
 <details>
-  <summary>Click here for the output:</summary>
+  <summary>Result:</summary>
 
   ```javascript
     true
@@ -103,7 +103,7 @@ console.log("" == false);
 console.log("" === false);
 ```
 <details>
-  <summary>Click here for the output:</summary>
+  <summary>Result:</summary>
 
   ```javascript
     false
@@ -121,6 +121,14 @@ clone.details.age = 30;
 console.log(original.name);
 console.log(original.details.age);
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    Alice
+    30
+  ```
+</details>
 
 ### JSOP-11
 ```javascript
@@ -136,6 +144,14 @@ const newPerson = updateProfile(person);
 console.log(person.age);
 console.log(newPerson.age);
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    21
+    30
+  ```
+</details>
 
 ### JSOP-12
 ```javascript
@@ -150,6 +166,14 @@ a[c] = 456;
 console.log(a[b]);
 console.log(a[c]);
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    456
+    456
+  ```
+</details>
 
 ### JSOP-13
 ```javascript
@@ -159,10 +183,19 @@ for (var i = 0; i < 3; i++) {
   }, 1000);
 }
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    3
+    3
+    3
+  ```
+</details>
 
 ### JSOP-14
 ```javascript
-for (var i = 0; i < 3; i++) {
+for (var i = 0; i <= 3; i++) {
   setTimeout(() => {
     console.log(i);
   }, 0);
@@ -170,8 +203,16 @@ for (var i = 0; i < 3; i++) {
 
 console.log("Done");
 ```
+<details>
+  <summary>Result:</summary>
 
-
+  ```javascript
+    Done
+    4
+    4
+    4
+  ```
+</details>
 
 ### JSOP-15
 ```javascript
@@ -185,6 +226,14 @@ function test() {
 
 test();
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    undefined
+    20
+  ```
+</details>
 
 ### JSOP-16
 ```javascript
@@ -204,6 +253,15 @@ test();
 
 console.log(x);
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    undefined
+    20
+    10
+  ```
+</details>
 
 ### JSOP-17
 ```javascript
@@ -224,6 +282,16 @@ fn1();
 fn2();
 fn1();
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    1
+    2
+    1
+    3
+  ```
+</details>
 
 ### JSOP-18
 ```javascript
@@ -239,6 +307,14 @@ function foo() {
     return "Hi";
 }
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    function
+    function
+  ```
+</details>
 
 ### JSOP-19
 ```javascript
@@ -252,6 +328,14 @@ function foo() {
 
 console.log(foo);
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    [Function foo]
+    1
+  ```
+</details>
 
 ### JSOP-20
 ```javascript
@@ -273,6 +357,15 @@ another.sayName();
 const fn = person.sayName;
 fn();
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    Akhil
+    John
+    undefined
+  ```
+</details>
 
 ### JSOP-21
 ```javascript
@@ -294,6 +387,18 @@ queueMicrotask(() => {
 
 console.log("G");
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    A
+    G
+    C
+    F
+    E
+    B
+  ```
+</details>
 
 ### JSOP-22
 ```javascript
@@ -318,3 +423,13 @@ arrow.call({ name: "John" });
 obj.regular();
 obj.arrow();
 ```
+<details>
+  <summary>Result:</summary>
+
+  ```javascript
+    John
+    undefined
+    Akhil
+    undefined
+  ```
+</details>
