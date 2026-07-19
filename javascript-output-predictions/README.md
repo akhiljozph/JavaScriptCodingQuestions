@@ -29,6 +29,26 @@ console.log([] == false);
 
 ### JSOP-6
 ```javascript
+console.log([] === false);
+```
+
+### JSOP-7
+```javascript
+console.log([0] == false);
+```
+
+### JSOP-8
+```javascript
+console.log("" === false);
+```
+
+### JSOP-9
+```javascript
+console.log("" === false);
+```
+
+### JSOP-10
+```javascript
 let original = { name: "Alice", details: { age: 25 } };
 let clone = { ...original };
 
@@ -39,7 +59,7 @@ console.log(original.name);
 console.log(original.details.age);
 ```
 
-### JSOP-7
+### JSOP-11
 ```javascript
 function updateProfile(user) {
   user.age = 21;
@@ -54,7 +74,21 @@ console.log(person.age);
 console.log(newPerson.age);
 ```
 
-### JSOP-8
+### JSOP-12
+```javascript
+const a = {};
+
+const b = { key: "b" };
+const c = { key: "c" };
+
+a[b] = 123;
+a[c] = 456;
+
+console.log(a[b]);
+console.log(a[c]);
+```
+
+### JSOP-13
 ```javascript
 for (var i = 0; i < 3; i++) {
   setTimeout(() => {
@@ -63,7 +97,7 @@ for (var i = 0; i < 3; i++) {
 }
 ```
 
-### JSOP-9
+### JSOP-14
 ```javascript
 for (var i = 0; i < 3; i++) {
   setTimeout(() => {
@@ -76,7 +110,7 @@ console.log("Done");
 
 
 
-### JSOP-10
+### JSOP-15
 ```javascript
 var x = 10;
 
@@ -89,7 +123,7 @@ function test() {
 test();
 ```
 
-### JSOP-11
+### JSOP-16
 ```javascript
 var x = 10;
 
@@ -108,7 +142,7 @@ test();
 console.log(x);
 ```
 
-### JSOP-12
+### JSOP-17
 ```javascript
 function outer() {
     let count = 0;
@@ -128,7 +162,7 @@ fn2();
 fn1();
 ```
 
-### JSOP-13
+### JSOP-18
 ```javascript
 console.log(typeof foo);
 
@@ -143,7 +177,7 @@ function foo() {
 }
 ```
 
-### JSOP-14
+### JSOP-19
 ```javascript
 console.log(foo);
 
@@ -156,7 +190,7 @@ function foo() {
 console.log(foo);
 ```
 
-### JSOP-15
+### JSOP-20
 ```javascript
 const person = {
     name: "Akhil",
@@ -177,7 +211,7 @@ const fn = person.sayName;
 fn();
 ```
 
-### JSOP-16
+### JSOP-21
 ```javascript
 console.log("A");
 
@@ -198,7 +232,7 @@ queueMicrotask(() => {
 console.log("G");
 ```
 
-### JSOP-17
+### JSOP-22
 ```javascript
 const obj = {
     name: "Akhil",
