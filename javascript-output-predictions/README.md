@@ -6,46 +6,109 @@
 ```javascript
 console.log(false == 0);
 ```
+<details>
+  <summary>Click here for the output:</summary>
+
+  ```javascript
+    true
+  ```
+</details>
 
 ### JSOP-2
 ```javascript
 console.log(false === 0);
 ```
+<details>
+  <summary>Click here for the output:</summary>
+
+  ```javascript
+    false
+  ```
+</details>
 
 ### JSOP-3
 ```javascript
 console.log(null == undefined);
 ```
+<details>
+  <summary>Click here for the output:</summary>
+
+  ```javascript
+    true
+  ```
+</details>
 
 ### JSOP-4
 ```javascript
 console.log(null === undefined);
 ```
+<details>
+  <summary>Click here for the output:</summary>
+
+  ```javascript
+    false
+  ```
+</details>
 
 ### JSOP-5
 ```javascript
 console.log([] == false);
 ```
+<details>
+  <summary>Click here for the output:</summary>
+
+  ```javascript
+    true
+  ```
+</details>
 
 ### JSOP-6
 ```javascript
 console.log([] === false);
 ```
+<details>
+  <summary>Click here for the output:</summary>
+
+  ```javascript
+    false
+  ```
+</details>
 
 ### JSOP-7
 ```javascript
 console.log([0] == false);
 ```
+<details>
+  <summary>Click here for the output:</summary>
+
+  ```javascript
+    true
+  ```
+</details>
 
 ### JSOP-8
 ```javascript
-console.log("" === false);
+console.log("" == false);
 ```
+<details>
+  <summary>Click here for the output:</summary>
+
+  ```javascript
+    true
+  ```
+</details>
 
 ### JSOP-9
 ```javascript
 console.log("" === false);
 ```
+<details>
+  <summary>Click here for the output:</summary>
+
+  ```javascript
+    false
+  ```
+</details>
 
 ### JSOP-10
 ```javascript
