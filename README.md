@@ -2,7 +2,7 @@
 
 ## Output Predictions
 
-[Click here for outout prediction questions.](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/javascript-output-predictions)
+[Click here for output prediction questions.](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/javascript-output-predictions)
 
 ## Coding Questions
 
