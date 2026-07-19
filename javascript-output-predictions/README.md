@@ -57,13 +57,15 @@ setTimeout(() => {
 
 Promise.resolve().then(() => {
   console.log("C");
+}).then(() => {
+    console.log("E");
 });
 
 queueMicrotask(() => {
-  console.log("D");
+  console.log("F");
 });
 
-console.log("E");
+console.log("G");
 ```
 
 ### JSOP-9
