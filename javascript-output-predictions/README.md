@@ -29,47 +29,6 @@ console.log([] == false);
 
 ### JSOP-6
 ```javascript
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => {
-    console.log(i);
-  }, 1000);
-}
-```
-
-### JSOP-7
-```javascript
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => {
-    console.log(i);
-  }, 0);
-}
-
-console.log("Done");
-```
-
-### JSOP-8
-```javascript
-console.log("A");
-
-setTimeout(() => {
-  console.log("B");
-}, 0);
-
-Promise.resolve().then(() => {
-  console.log("C");
-}).then(() => {
-    console.log("E");
-});
-
-queueMicrotask(() => {
-  console.log("F");
-});
-
-console.log("G");
-```
-
-### JSOP-9
-```javascript
 let original = { name: "Alice", details: { age: 25 } };
 let clone = { ...original };
 
@@ -80,7 +39,7 @@ console.log(original.name);
 console.log(original.details.age);
 ```
 
-### JSOP-10
+### JSOP-7
 ```javascript
 function updateProfile(user) {
   user.age = 21;
@@ -95,7 +54,29 @@ console.log(person.age);
 console.log(newPerson.age);
 ```
 
-### JSOP-11
+### JSOP-8
+```javascript
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, 1000);
+}
+```
+
+### JSOP-9
+```javascript
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, 0);
+}
+
+console.log("Done");
+```
+
+
+
+### JSOP-10
 ```javascript
 var x = 10;
 
@@ -108,7 +89,7 @@ function test() {
 test();
 ```
 
-### JSOP-12
+### JSOP-11
 ```javascript
 var x = 10;
 
@@ -125,6 +106,26 @@ function test() {
 test();
 
 console.log(x);
+```
+
+### JSOP-12
+```javascript
+function outer() {
+    let count = 0;
+
+    return function () {
+        count++;
+        console.log(count);
+    };
+}
+
+const fn1 = outer();
+const fn2 = outer();
+
+fn1();
+fn1();
+fn2();
+fn1();
 ```
 
 ### JSOP-13
@@ -157,26 +158,6 @@ console.log(foo);
 
 ### JSOP-15
 ```javascript
-function outer() {
-    let count = 0;
-
-    return function () {
-        count++;
-        console.log(count);
-    };
-}
-
-const fn1 = outer();
-const fn2 = outer();
-
-fn1();
-fn1();
-fn2();
-fn1();
-```
-
-### JSOP-16
-```javascript
 const person = {
     name: "Akhil",
     sayName() {
@@ -194,6 +175,27 @@ another.sayName();
 
 const fn = person.sayName;
 fn();
+```
+
+### JSOP-16
+```javascript
+console.log("A");
+
+setTimeout(() => {
+  console.log("B");
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log("C");
+}).then(() => {
+    console.log("E");
+});
+
+queueMicrotask(() => {
+  console.log("F");
+});
+
+console.log("G");
 ```
 
 ### JSOP-17
