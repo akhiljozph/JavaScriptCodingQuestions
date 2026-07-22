@@ -419,12 +419,12 @@ Expected output: ***4***
 
 ## [JSCQ-30](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-30)
 
-### **TBD**
+### **Implement a function that groups array elements based on a callback.**
 
 ### Use Case - 1
 
 ```javascript
-// TBD
+console.log(groupBy([6.1, 4.2, 6.3], Math.floor));
 ```
 
-Expected output: ***TBD***
+Expected output: ***{ '4': [ 4.2 ], '6': [ 6.1, 6.3 ] }***
