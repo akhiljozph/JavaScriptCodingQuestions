@@ -1,7 +1,5 @@
 # JavaScriptCodingQuestions
 
-## Coding Questions
-
 ## [JSCQ-01](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-01)
 
 ### **Find the first non repeating character from the provided word.**
