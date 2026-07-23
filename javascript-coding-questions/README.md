@@ -2,7 +2,7 @@
 
 ## Coding Questions
 
-## [JSCQ-1](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-1)
+## [JSCQ-01](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-01)
 
 ### **Find the first non repeating character from the provided word.**
 
@@ -22,7 +22,7 @@ findFirstNonRepeatingChar('Swiss');
 
 Expected output: ***w***
 
-## [JSCQ-2](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-2)
+## [JSCQ-02](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-02)
 
 ### **Given two arrays. Merge the arrays and return an with only unique elements.**
 
@@ -67,7 +67,7 @@ Expected Output:
 ]
 ```
 
-## [JSCQ-3](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-3)
+## [JSCQ-03](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-03)
 
 ### **Given an array with integers. Find the length of the longest consecutive sequence from the array.**
 
@@ -80,7 +80,7 @@ console.log(findLengthOfLongestConsecutiveSequence(sequence));
 
 Expected output: ***7***
 
-## [JSCQ-4](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-4)
+## [JSCQ-04](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-04)
 
 ### **Given an array with subarrays, return an array by flattening the original one.**
 
@@ -93,7 +93,7 @@ console.log(flattenArray(subArray));
 
 Expected output: ***[0, 1, 3, 5, 2, 6, 4, 8]***
 
-## [JSCQ-5](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-5)
+## [JSCQ-05](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-05)
 
 ### **Find out whether the provided word is having only unique characters.**
 
@@ -105,7 +105,7 @@ console.log(hasUniqueCharacters('Unique'));;
 
 Expected output: ***true***
 
-## [JSCQ-6](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-6)
+## [JSCQ-06](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-06)
 
 ### **Find out the count of each characters from the provided word.**
 
@@ -117,7 +117,7 @@ console.log(countCharacters('abbcccdddd'));
 
 Expected output: ***{ a: 1, b: 2, c: 3, d: 4 }***
 
-## [JSCQ-7](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-7)
+## [JSCQ-07](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-07)
 
 ### **Function to return the longest word from the provided sentence.**
 
@@ -130,7 +130,7 @@ console.log(findLargestWords(sentence));
 
 Expected output: ***sentence***
 
-## [JSCQ-8](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-8)
+## [JSCQ-08](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-08)
 
 ### **Find and return the second largest number from the provided list.**
 
@@ -143,7 +143,7 @@ console.log(findSecondLargest(numbers));
 
 Expected output: ***10***
 
-## [JSCQ-9](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-9)
+## [JSCQ-09](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-09)
 
 ### **Find the missing numbers from the provided array. Array range will be provided.**
 
@@ -418,6 +418,18 @@ console.log(reduceByAdjacentDifferences(numbers));
 Expected output: ***4***
 
 ## [JSCQ-30](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-30)
+
+### **Implement a function that groups array elements based on a callback.**
+
+### Use Case - 1
+
+```javascript
+console.log(groupBy([6.1, 4.2, 6.3], Math.floor));
+```
+
+Expected output: ***{ '4': [ 4.2 ], '6': [ 6.1, 6.3 ] }***
+
+## [JSCQ-31](https://github.com/akhiljozph/JavaScriptCodingQuestions/tree/master/scripts/JSCQ-31)
 
 ### **Implement a function that groups array elements based on a callback.**
 
